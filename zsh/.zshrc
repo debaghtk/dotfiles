@@ -14,6 +14,9 @@ export XDG_STATE_HOME="$HOME/.local/state"
 [ -f /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh ] && source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 [ -f /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh ] && source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# rbenv
+eval "$(rbenv init - zsh)"
+
 # Aliases
 alias vim="nvim"
 
