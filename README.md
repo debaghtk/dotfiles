@@ -5,7 +5,7 @@ Minimal dotfiles for macOS.
 ## Install
 
 ```bash
-brew install stow z starship
+brew install stow z starship zsh-syntax-highlighting zsh-autosuggestions
 brew install --cask ghostty
 ./stow.sh
 ```
