@@ -1,2 +1,5 @@
 {
+    "editor.fontFamily": "Maple Mono NF",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "One Dark Pro Darker"
 }
