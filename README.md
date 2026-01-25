@@ -5,8 +5,7 @@ Minimal dotfiles for macOS.
 ## Install
 
 ```bash
-brew install stow z starship zsh-syntax-highlighting zsh-autosuggestions
-brew install --cask ghostty
+brew bundle
 ./stow.sh
 ```
 
@@ -14,6 +13,11 @@ brew install --cask ghostty
 
 - `stow.sh` - Creates symlinks from dotfiles to home directory. Fails if files already exist.
 - `adopt.sh` - Pulls existing config files into this repo and creates symlinks. Use once on a new machine to preserve current settings.
+
+## Brewfile
+
+- `brew bundle` - Install all packages
+- `brew bundle dump --force` - Update Brewfile with currently installed packages
 
 ## Making Changes
 
