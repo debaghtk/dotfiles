@@ -17,4 +17,7 @@ brew install --cask ghostty
 
 ## Making Changes
 
-Edit files normally (e.g. `~/.zshrc`). Changes save to the dotfiles repo via symlink. Commit when ready.
+- Edit directly - open ~/.zshrc or ~/.config/ghostty/config in any editor
+- Changes auto-save to the dotfiles repo (same file via symlink)
+- Commit when ready - cd ~/workspace/dotfiles && git add . && git commit
+
