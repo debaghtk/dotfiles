@@ -7,5 +7,5 @@ Minimal dotfiles for macOS.
 ```bash
 brew install stow z
 brew install --cask ghostty
-stow .
+./stow.sh
 ```
