@@ -8,6 +8,8 @@ brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions"
 brew "neovim"
 brew "rbenv"
+brew "nvm"
+brew "uv"
 
 # Casks
 cask "ghostty"
