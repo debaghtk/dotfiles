@@ -14,6 +14,10 @@ brew "gmp"
 brew "uv"
 brew "coreutils"
 brew "gh"
+brew "dnsmasq"
 
 # Casks
 cask "ghostty"
+cask "font-maple-mono"
+cask "font-maple-mono-nf"
+cask "font-maple-mono-nf-cn"

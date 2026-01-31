@@ -1,9 +1,14 @@
 {
     "editor.fontFamily": "Maple Mono NF",
     "editor.fontLigatures": true,
-    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "editor.fontSize": 15,
     "claudeCode.preferredLocation": "panel",
     "workbench.activityBar.location": "top",
     "chat.disableAIFeatures": true,
-    "workbench.iconTheme": "material-icon-theme"
+    "claudeCode.selectedModel": "default",
+    "git.autofetch": true,
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "git.confirmSync": false
 }
