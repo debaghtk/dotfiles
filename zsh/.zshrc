@@ -39,3 +39,13 @@ export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 export PATH="$HOME/.local/bin:$PATH"
+
+# bun completions
+[ -s "/Users/wallydrag/.bun/_bun" ] && source "/Users/wallydrag/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+alias claude-mem='/Users/wallydrag/.bun/bin/bun "/Users/wallydrag/.claude/plugins/marketplaces/thedotmack/plugin/scripts/worker-service.cjs"'
+export PATH="/usr/local/opt/libpq/bin:$PATH"

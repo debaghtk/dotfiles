@@ -1,14 +1,32 @@
 {
-    "editor.fontFamily": "Maple Mono NF",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 15,
-    "claudeCode.preferredLocation": "panel",
-    "workbench.activityBar.location": "top",
-    "chat.disableAIFeatures": true,
-    "claudeCode.selectedModel": "default",
-    "git.autofetch": true,
-    "workbench.startupEditor": "none",
-    "workbench.colorTheme": "Solarized Dark",
-    "workbench.iconTheme": "material-icon-theme",
-    "git.confirmSync": false
+  "editor.fontFamily": "Maple Mono NF",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "claudeCode.preferredLocation": "panel",
+  "chat.disableAIFeatures": true,
+  "claudeCode.selectedModel": "default",
+  "git.autofetch": true,
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Solarized Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "git.confirmSync": false,
+  "[javascript]": {
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "makefile.configureOnOpen": true,
+  "files.associations": {
+    "Makefile": "makefile"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
