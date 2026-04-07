@@ -20,7 +20,6 @@ $java\
 $kotlin\
 $haskell\
 $python\
-$ruby\
 [](fg:color_blue bg:color_bg3)\
 $docker_context\
 $conda\
@@ -62,6 +61,7 @@ Fedora = "󰣛"
 Alpine = ""
 Amazon = ""
 Android = ""
+AOSC = ""
 Arch = "󰣇"
 Artix = "󰣇"
 EndeavourOS = ""
@@ -146,11 +146,6 @@ format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 
 [python]
 symbol = ""
-style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
-
-[ruby]
-symbol = " "
 style = "bg:color_blue"
 format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 
