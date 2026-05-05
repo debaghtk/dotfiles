@@ -28,6 +28,10 @@ setopt PUSHD_IGNORE_DUPS      # no duplicate dirs in stack
 setopt EXTENDED_GLOB          # enables ** recursive glob e.g. ls **/*.js
 setopt NULL_GLOB              # no error if glob matches nothing
 
+# Default editor
+export EDITOR="nvim"
+export VISUAL="nvim"
+
 # XDG Base Directory
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
@@ -50,10 +54,9 @@ eval "$(starship init zsh)"
 # fzf
 eval "$(fzf --zsh)"
 
-# nvm
-export NVM_DIR="$HOME/.nvm"
-  [ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+# fnm (auto-switches via .nvmrc/.node-version on cd)
+eval "$(fnm env --use-on-cd --shell zsh)"
+
 export PATH="$HOME/.local/bin:$PATH"
 
 # bun completions
@@ -84,3 +87,4 @@ bindkey '^[[B' history-substring-search-down
 # Syntax highlighting
 [ -f /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 [ -f /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
